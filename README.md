@@ -9,5 +9,11 @@ All apps are 100% GDPR-compliant.
 ## Apps 💻
 ### Notes 📝
 A simplified note-taking app.
+**Features**
+[x] Take notes
+[x] Auto-save
+[x] Multi-page (`https://booor.ing/notes/?a`, `https://booor.ing/notes/?b`, etc.)
+
+
 
 [Live](https://booor.ing/notes) | [Code](/notes)
