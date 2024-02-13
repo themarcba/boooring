@@ -1,6 +1,12 @@
 <title>booring/notes</title>
 <link rel="stylesheet" href="../style.css" />
-<body onload="document.querySelector('textarea').value=localStorage.getItem('notes');">
-  <textarea oninput="localStorage.setItem('notes', this.value)" placeholder="Just start typing 🦄" autofocus>
+<script></script>
+<body onload="document.querySelector('textarea').value=localStorage.getItem('notes'+window.location.search);">
+  <pre></pre>
+  <textarea
+    oninput="localStorage.setItem('notes'+window.location.search, this.value)"
+    placeholder="Just start typing 🦄"
+    autofocus
+  >
   </textarea>
 </body>
