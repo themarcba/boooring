@@ -11,12 +11,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-size: 2rem;
 }
 textarea {
   padding: 1rem;
   flex: 1;
-  line-height: 3rem;
-  font-size: 2em;
+  line-height: 2.5rem;
+  font-size: 1em;
 }
 
 h1 {
@@ -30,6 +31,10 @@ div {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+}
+
+a:hover {
+  color: white;
 }
 
 footer {
