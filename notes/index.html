@@ -1,6 +1,5 @@
 <title>booring/notes</title>
 <link rel="stylesheet" href="../style.css" />
-<script></script>
 <body onload="document.querySelector('textarea').value=localStorage.getItem('notes'+window.location.search);">
   <textarea
     oninput="localStorage.setItem('notes'+window.location.search, this.value)"
